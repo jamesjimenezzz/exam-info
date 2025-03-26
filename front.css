@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #708090;
+  color: #faf3e0;
+  font-family: "Poppins";
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+p {
+  color: #e9e2d2;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1024px;
+  margin-top: 6rem;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 12rem;
+}
+
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.play button {
+  border: none;
+  background-color: #faf3e0;
+  padding: 10px 10px;
+  border-radius: 3rem;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 80%;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+
+.play button:hover {
+  opacity: 100%;
+}
+
+.content {
+  display: flex;
+
+  max-width: 1024px;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  gap: 2rem;
+  margin: 3rem 1.5rem;
+}
+
+.description {
+  max-width: 450px;
+  margin: 0 auto;
+  margin: 0 1.5rem;
+}
+
+.rules {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1023px) {
+  .title h1 {
+    font-size: 8rem;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .content {
+    flex-direction: column;
+  }
+  .rules {
+    margin: 0;
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 745px) {
+  .title h1 {
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  .title h1 {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: 461px) {
+  .title h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .title h1 {
+    font-size: 3rem;
+  }
+}
